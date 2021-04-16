@@ -1,0 +1,14 @@
+@import '~antd/dist/antd.min.css';
+@import url(https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap:400italic,700,800italic,400,700,800);
+
+$text_color: rgb(34, 34, 34);
+$base_color: rgba(0, 0, 0, 0.5);
+$primary_font_type: 'Helvetica Neue', helvetica !important;
+$soft_button_color: rgb(11, 106, 255);
+$active_color: transparentize($soft_button_color, 0.2);
+$primary_button_color: $soft_button_color;
+
+body {
+  font-family: $primary_font_type;
+  color: $text_color;
+}

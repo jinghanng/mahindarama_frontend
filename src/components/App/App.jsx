@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from '../Partials/Header/Header';
 import './style.scss';
 
 const App = () => (
   <div>
-    <h1>Test</h1>
+    <Header />
   </div>
 );
 
